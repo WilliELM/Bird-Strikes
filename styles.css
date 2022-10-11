@@ -1,0 +1,16 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#map {
+    position: absolute;
+    display: flex;
+    height: 400px;
+    width: 600px}
+
+.myChart {
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
