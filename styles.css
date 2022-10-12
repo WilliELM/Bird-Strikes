@@ -40,7 +40,7 @@ h1 {
 
 .myChart {
     display: flex;
-    height: 500px;
+    height: 250px;
     width: 500px;
     justify-content: center;
 
@@ -63,6 +63,7 @@ h1 {
 }
 
 .textUnderGraph {
+    width: 500px;
     color: #0077b6;
     font-family: monospace;
     font-size: 14px;
