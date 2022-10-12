@@ -3,7 +3,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-
 const data = [
     {
         "latitude" : 39.85841000,
@@ -29194,4 +29193,5 @@ function loopMap() {
     }
 }
 loopMap()
+
 

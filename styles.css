@@ -61,3 +61,10 @@ h1 {
 h1 {
     text-align: center;
 }
+
+.textUnderGraph {
+    color: #0077b6;
+    font-family: monospace;
+    font-size: 14px;
+    ;
+}
