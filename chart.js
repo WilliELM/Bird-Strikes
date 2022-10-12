@@ -8,9 +8,9 @@ const myChart = new Chart(ctx, {
         }
     },
     data: {
-        labels: ['STR_ENG1', 'STR_ENG2', 'STR_ENG3', 'STR_ENG4', 'STR_PROP', 'STR_WING_ROT', 'STR_FUSE', 'STR_LG', 'STR_TAIL', 'STR_LGHTS'],
+        labels: ['ENGINE 1', 'ENGINE 2', 'ENGINE 3', 'ENGINE 4', 'PROPELLER', 'WING OR ROTOR', 'FUSELAGE', 'LANDING GEAR', 'TAIL', 'LIGHTS', 'RADOME'],
         datasets: [{
-            data: [12673, 10573, 474, 230, 4618, 31335, 24153, 11367, 2732, 1357],
+            data: [12673, 10573, 474, 230, 4618, 31335, 24153, 11367, 2732, 1357, 24910],
             label: 'Total hits',
             backgroundColor: ['#0077b6'],
 
