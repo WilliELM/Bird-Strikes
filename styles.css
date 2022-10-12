@@ -1,24 +1,40 @@
+body {
+    background: #caf0f8
+}
+
+h1 {
+    color: #03045e;
+    font-family: monospace;
+}
+
 .all {
  display: flex;
 }
 
 #mapText {
     text-align: left;
+    color: #0077b6;
+    font-family: monospace;
+    font-size: 16px;
+
 }
 
 #map {
     position: absolute;
     display: flex;
     margin-left: 20px;
-    box-shadow: 5px 5px 8px #888888;
+    box-shadow: 5px 5px 5px #888888;
     height: 300px;
-    width: 300px;
+    width: 400px;
 }
 
 
 #chartText {
     display: flex;
     justify-content: left;
+    color: #0077b6;
+    font-family: monospace;
+    font-size: 16px;
 
 }
 

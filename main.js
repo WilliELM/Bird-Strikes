@@ -1,4 +1,4 @@
-var map = L.map('map').setView([37.85454554240838, -97.5056217858466], 4);
+var map = L.map('map').setView([37.85454554240838, -97.5056217858466], 3);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -29193,6 +29193,5 @@ function loopMap() {
         L.circle([data[i].latitude, data[i].longitude], {radius: 200}).addTo(map);
     }
 }
-
 loopMap()
 
