@@ -1,16 +1,29 @@
 .all {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+padding-top: 100px;
+}
+
+#mapText {
+    margin-left: 200px;
 }
 #map {
     position: absolute;
     display: flex;
     height: 400px;
-    width: 600px}
+    width: 600px;
+    margin-left: 20px;
+}
+
+
+#chartText {
+    display: flex;
+    justify-content: right;
+    padding-right: 400px;
+}
 
 .myChart {
     display: flex;
     width: 600px;
-    height: 400px;
+    height: 500px;
+    padding-left: 700px;
+    padding-top: 50px;
 }

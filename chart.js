@@ -12,7 +12,7 @@ const myChart = new Chart(ctx, {
         datasets: [{
             data: [12673, 10573, 474, 230, 4618, 31335, 24153, 11367, 2732, 1357],
             label: 'Total hits',
-            backgroundColor: ["grey"],
+            backgroundColor: ["lightblue"],
 
         }]
     }
