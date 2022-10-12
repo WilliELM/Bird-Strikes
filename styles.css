@@ -1,29 +1,47 @@
 .all {
-padding-top: 100px;
+ display: flex;
 }
 
 #mapText {
-    margin-left: 200px;
+    text-align: left;
 }
+
 #map {
     position: absolute;
     display: flex;
-    height: 400px;
-    width: 600px;
     margin-left: 20px;
+    box-shadow: 5px 5px 8px #888888;
+    height: 300px;
+    width: 300px;
 }
 
 
 #chartText {
     display: flex;
-    justify-content: right;
-    padding-right: 400px;
+    justify-content: left;
+
 }
 
 .myChart {
     display: flex;
-    width: 600px;
     height: 500px;
-    padding-left: 700px;
-    padding-top: 50px;
+    width: 500px;
+    justify-content: center;
+
+}
+
+
+.leftPart {
+    display: flex;
+    width: 50%;
+    height: 75%;
+}
+.rightPart {
+    display: flex;
+    width: 50%;
+    height: 75%;
+}
+
+h1 {
+    text-align: center;
 }
