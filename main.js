@@ -29189,7 +29189,9 @@ const data = [
 
 function loopMap() {
     for (let i = 0; i < data.length; i++) {
-        L.circle([data[i].latitude, data[i].longitude], {radius: 200}).addTo(map);
+        const circle = L.circle([data[i].latitude, data[i].longitude], {radius: 200});
+        circle.setStyle({color:'#0077b6'})
+        circle.addTo(map);
     }
 }
 loopMap()
