@@ -17,3 +17,25 @@ const myChart = new Chart(ctx, {
         }]
     }
 });
+const ctx2 = document.querySelector('#chart2').getContext("2d");
+
+const myChart2 = new Chart(ctx2, {
+    type: 'bar',
+    options: {
+        onClick: (e) => {
+
+        }
+    },
+    data: {
+        labels: ['LEFT ENGINES', 'RIGHT ENGINES'],
+        datasets: [{
+            data: [23246, 704],
+            label: 'Total hits',
+            backgroundColor: ['#0077b6'],
+
+        }]
+    }
+});
+
+// Sortere i data evt. lave endnu en graf kun med engines
+// Bytte om på Kortet og grafen, eller smid dem under hinanden.
